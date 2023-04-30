@@ -1,0 +1,23 @@
+h1 {
+  color: rgb(29, 208, 208);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  padding: 25px;
+  background: rgb(89, 129, 238);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 16px;
+  color: rgb(83, 27, 108);
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 30px;
+}
