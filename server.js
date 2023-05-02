@@ -10,7 +10,6 @@ const publicdir = path.join(__dirname, 'Public');
 const server = http.createServer((req, res) => {
 
     if(req.url === '/') {
-        console.log(req.url);
         fs.readFile(path.join(publicdir, 'index.html'), 'utf-8', (err, data)=>{
             if(!err){
                 res.writeHead(200, {'Content-Type': 'text/html'});
